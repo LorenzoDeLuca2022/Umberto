@@ -3,3 +3,10 @@
 import random
 z = (random.randrange(10,20))
 print(z)
+
+#Riempi una lista (chiamata listone1) con z numeri casuali tra 0 e 20, dove z è la variabile creata al punto 1.
+
+listone1 = []
+for i in range(z):
+    listone1.append(random.randrange(0,20))
+print(listone1)
