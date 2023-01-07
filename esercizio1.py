@@ -27,3 +27,10 @@ for i in (listone1):
     if i >= z:
         list3.append(i)
 print(list3)
+
+#Eleva al quadrato tutti i valori della lista listone2. (es: 5-> 25)
+
+list4 = []
+for i in (listone2):
+    list4.append(i**2)
+print(list4)
