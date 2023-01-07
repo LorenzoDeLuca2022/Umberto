@@ -19,3 +19,11 @@ for i in (listone1):
     if i < z:
         listone2.append(i)
 print(listone2)
+
+#Stampa tutti i valori di listone1 che non sono stati messi in listone2
+
+list3 = []
+for i in (listone1):
+    if i >= z:
+        list3.append(i)
+print(list3)
