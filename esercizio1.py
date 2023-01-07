@@ -34,3 +34,11 @@ list4 = []
 for i in (listone2):
     list4.append(i**2)
 print(list4)
+
+#Fai la somma di tutti i valori di listone2 maggiori di z e stampa il risultato (risultone)
+
+risultone = (0)
+for i in (listone2):
+    if i > z:
+        risultone += i
+print(risultone)
