@@ -42,3 +42,10 @@ for i in (listone2):
     if i > z:
         risultone += i
 print(risultone)
+
+#Se risultone sommato alla tua età è maggiore della lunghezza di listone2, stampa 'evviva' Altrimenti stampa 'buuuuu'
+
+if risultone + 22 > len(listone2):
+    print("evviva")
+else:
+    print("buuuuu")
