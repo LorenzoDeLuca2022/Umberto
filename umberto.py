@@ -8,3 +8,11 @@ lista1 = []
 for i in range (z):
     lista1.append(random.randrange(0,20))
 print(lista1)
+
+#Creare una lista (chiamata listone2) con tutti i numeri della lista listone1 (riempita al punto 2)
+#che sono minori della lunghezza della lista (z)
+lista2 = []
+for x in lista1:
+    if x < z:
+        lista2.append(x)
+print(lista2)
