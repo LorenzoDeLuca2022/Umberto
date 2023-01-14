@@ -11,8 +11,15 @@ print(lista1)
 
 #Creare una lista (chiamata listone2) con tutti i numeri della lista listone1 (riempita al punto 2)
 #che sono minori della lunghezza della lista (z)
+##Stampa tutti i valori di listone1 che non sono stati messi in listone2
 lista2 = []
 for x in lista1:
     if x < z:
         lista2.append(x)
+    else:
+        print(x)
 print(lista2)
+
+
+
+
