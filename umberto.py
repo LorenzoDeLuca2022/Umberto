@@ -20,6 +20,18 @@ for x in lista1:
         print(x)
 print(lista2)
 
+#Eleva al quadrato tutti i valori della lista listone2. (es: 5-> 25)
+listaQ = []
+for n in lista2:
+    n=pow(n,2)
+    listaQ.append(n)
+lista2.clear()
+lista2 = listaQ
+print(lista2)
 
-
-
+#Fai la somma di tutti i valori di listone2 maggiori di z e stampa il risultato (risultone)
+a = (0)
+for c in lista2:
+    if c > z:
+        a = a + c
+print(a)
