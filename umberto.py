@@ -29,9 +29,15 @@ lista2.clear()
 lista2 = listaQ
 print(lista2)
 
-#Fai la somma di tutti i valori di listone2 maggiori di z e stampa il risultato (risultone)
+#Fai la somma di tutti i valori di listone2 maggiori di z e stampa il risultato (a)
 a = (0)
 for c in lista2:
     if c > z:
         a = a + c
 print(a)
+
+#Se a sommato alla tua età è maggiore della lunghezza di listone2, stampa 'evviva' Altrimenti stampa 'buuuuu'
+if (a + 22) > len(lista2):
+    print("evviva")
+else:
+    print("buuuu")
